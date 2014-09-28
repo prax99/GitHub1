@@ -1,0 +1,59 @@
+<html>
+
+<head>
+	<title> HELLO RNSIT </title>
+	<script>
+		function greet()
+		{
+			var x="";
+			var time=new Date().getHours();
+			if(time<20) x="Good Day";
+			else x="Good Evening";
+			alert(x);
+		}
+	</script>
+</head>
+
+<body bgcolor="yellow">
+
+First HTML document
+
+<div>
+	&nbsp; This is division
+</div>
+
+<table border="2" bgcolor="red">
+	<form method="post">
+
+	<tr>
+		<td> Username </td>
+		<td> <input type="email" id="text"> </td>
+	</tr>
+	<tr>
+		<td> Password </td>
+		<td> <input type="search" id="pass"> </td>
+	<tr> <td> <input type="button" value="try it" id="btn1" onclick="greet()"> </td> 
+	     <td> <input type="Submit" id="btn2"> </td>
+	</tr>
+	<tr> <td> <input list="gender">
+		  <datalist id="gender">
+			<option value="M">
+			<option value="F">
+		  </datalist>
+	     </td>
+	     <td> <input type="date"> </td>
+	</tr>		
+	</form>
+	
+</table>
+
+<a href="http://www.google.com" 
+   target="_blank" bgcolor="red"> 
+   Go to google 
+</a>
+
+<img src="C:\Users\Public\Pictures\Sample Pictures\Desert.jpg">
+
+
+</body>
+</html>
